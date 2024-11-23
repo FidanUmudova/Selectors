@@ -1,0 +1,85 @@
+/* Ancaq bunu yaza bilmədim. Niyəsə işləmədi
+ Style all elements on the page with a light gray background, except for the elements inside a <main> tag.
+*/
+.paragraphs{
+    color: blue;
+    background-color: yellow;
+}
+.headings{
+    font-size: 24px;
+}
+/* bunu açsam arxa ekran tam brown olacaq deye hələlik belə qoydum */
+/* .all{
+    background-color: brown;
+} */
+.lists{
+    margin: 20px;
+}
+#span{
+    border: 5px solid green;
+}
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+div > span{
+    color: chocolate;
+}
+ul > li{
+    color: darkblue;
+}
+h2 + p{
+    font-weight: bold;
+}
+h1 ~ p {
+    background-color: rgb(254, 9, 160);
+}
+input{
+    border: 3px solid blue;
+}
+a[target="_blank"] {
+    background-color: #ffe4b5;
+  }
+table{
+    width: 50%;
+    border-collapse: collapse; 
+}
+tr:nth-child(even) {
+    background-color: purple; 
+}
+button:hover{
+    background-color: green;
+}
+.anotherlist > nav > ul > li > a {
+    font-weight: bold;
+    color: red;
+}
+.anotherlist ul ul li a {
+    font-style: italic;
+    color: greenyellow;
+}
+.anotherlist ul ul {
+    padding-left: 100px;
+}
+.profilecard{
+    font-family: Poppins;
+}
+.profilecard span{
+    background-color: rgb(244, 242, 201);
+    color: orange;
+    font-weight: bold;
+    font-size: x-large;
+}
+.profilecard .button:hover{
+    background-color: paleturquoise;
+    font-size: x-large;
+}
+.profilecard .button:active{
+    color: red;
+}
+.profilecard .button:visited{
+    color: yellowgreen;
+}
+.profilecard .button::before {
+    content: "👉"; 
+}
+.profilecard [src="https://via.placeholder.com/100"]{
+    border: 2px solid pink;
+}
